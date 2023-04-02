@@ -10,7 +10,7 @@ This is the repository for my personal website built using ReactJS.
 
 ## Description 📝
 
-This is a personal website built using ReactJS. It contains information about me, my skills, and projects. The website is responsive and can be viewed on different screen sizes.
+This is a personal website built using ReactJS. It contains information about me, my skills, and projects.
 
 ## Installation 🛠️
 
