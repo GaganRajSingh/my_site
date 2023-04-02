@@ -1,0 +1,10 @@
+.footer {
+    width: 70%;
+    z-index: 5;
+    /* color: white; */
+}
+
+.designed {
+    margin-top: 2%;
+    color:rgb(171, 171, 174);
+}

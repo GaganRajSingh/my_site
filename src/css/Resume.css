@@ -1,0 +1,39 @@
+.resume {
+    width: 60%;
+    height: 60%;
+    background-color: #1e21336a;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+    backdrop-filter: blur(1px);
+}
+
+.column_65 {
+    float: left;
+    width: 65%;
+    height: 100%;
+}
+
+.column_65_text {
+    margin-top: 8%;
+}
+
+.column_35 {
+    float: left;
+    width: 35%;
+    height: 100%;
+    text-align: left;
+}
+
+.resume_btn {
+    margin-top: 5%;
+}
+
+.resume_btn a {
+    color: #5a5a5a;
+}
+
+.resume_graphic {
+    height: 240px;
+    border-radius: 5%;
+}
