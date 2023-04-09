@@ -49,4 +49,10 @@
 #form-name, #form-email, #form-subject, #form-message {
     background-color: rgb(35, 41, 65);
     border-radius: 10px;
+    color: #a7a7a9;
+}
+
+#form-message {
+    min-height: 48px;
+    max-height: 225px;
 }
