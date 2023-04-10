@@ -17,14 +17,15 @@
 .column_75_exp {
     margin-top: 5%;
     text-align: left;
-    padding-left: 11%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .column_25 {
     float: left;
-    width: 25%;
+    width: 28%;
     height: 100%;
-    margin-left: 3%;
+    margin-left: 1.5%;
 }
 
 .column_25_menu {
@@ -58,3 +59,17 @@
     color:rgb(122 122 177);
 }
 
+.job_header {
+    width: 100%;
+    height: 15%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: inset 0px -20px 25px 5px rgba(6, 11, 36, 0.8);
+}
+
+.job_logo {
+    margin-top: 7%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

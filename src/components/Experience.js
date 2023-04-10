@@ -1,7 +1,9 @@
 import { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 import Job_exp from './Job_exp'
+import Job_banner from './Job_banner'
 import '../css/Experience.css'
+
 
 class MenuExampleVerticalSecondary extends Component {
 
@@ -35,6 +37,9 @@ class MenuExampleVerticalSecondary extends Component {
 				</div>	
 
 				<div className='column_25'>
+					
+					<Job_banner name = {this.state.activeItem} />
+
 					<div className='column_25_menu'>
 						<Menu pointing secondary vertical size='large'>
 							<Menu.Item id="exp1"
