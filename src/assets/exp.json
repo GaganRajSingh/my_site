@@ -10,7 +10,7 @@
             "▹ Developed and fine-tuned predictive models to output potential client success rates, using Python, Pandas, Scikit-learn, leading to better decision making and business growth.",
             "▹ Developed a ranking algorithm to compliment the success rate output and identify the top clients."
         ],
-        "color": "#355c3b",
+        "color": "#355c3b4D",
         "logo": "uofa-logo.png"
     },
     {
@@ -24,7 +24,7 @@
             "▹ Led the successful migration of more than 4.5 million user records to a new database by developing Python migration scripts, ensuring minimal disruption to business operations and data integrity.",
             "▹ Implemented Single Sign-On and Multi-Factor Authentication among all websites and apps."
         ],
-        "color": "black",
+        "color": "#0000004D",
         "logo": "deloitte-logo.avif"
     },
     {
@@ -37,7 +37,7 @@
             "▹ Acquired knowledge on the basics of blockchain technology, as well as multiple consensus algorithms such as Proof of Work and Proof of Stake.",
             "▹ Created proof-of-concepts utilizing Hyperledger Fabric for use cases in the oil and gas industry as well as the health insurance sector."
         ],
-        "color": "black",
+        "color": "#45236e4D",
         "logo": "cc-logo.png"
     }
 ]
