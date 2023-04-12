@@ -1,6 +1,6 @@
 # My Personal Website 🌐
 
-This is the repository for my personal website built using ReactJS. <a href='gaganrajsingh.github.io/my_site' target = 'blank'>Link</a>
+This is the repository for my personal website built using ReactJS. <a href='https://gaganrajsingh.github.io/my_site' target = 'blank'>Link</a>
 
 ## Table of Contents 📋
 
