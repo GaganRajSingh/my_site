@@ -1,12 +1,13 @@
 # My Personal Website 🌐
 
-This is the repository for my personal website built using ReactJS. <a href='https://gaganrajsingh.github.io/my_site' target = 'blank'>Link</a>
+This is the repository for my personal website built using ReactJS. Please note that this website is not currently optimized for mobile devices and is best viewed on a desktop computer. <a href='https://gaganrajsingh.github.io/my_site' target = 'blank'>Link</a>
 
 ## Table of Contents 📋
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Description](#description-📝)
+- [Installation](#installation-🛠️)
+- [Usage](#usage-🚀)
+- [Future Works](#future-works-🎯)
 
 ## Description 📝
 
@@ -27,3 +28,7 @@ To use this project, follow these steps:
 1. Navigate to the project directory in your terminal 💻
 2. Run `npm start` to start the development server 🌡️
 3. Open your browser and navigate to `http://localhost:3000` to view the website 🌐
+
+## Future Works 🎯
+
+1. Make the website responsive.
