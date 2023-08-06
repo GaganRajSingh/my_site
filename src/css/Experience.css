@@ -32,16 +32,16 @@
     margin-top: 15%;
 }
 
-#exp1, #exp2, #exp3 {
+#exp1, #exp2, #exp3, #exp4 {
     color: white;
     border-right-width: 1px;
     border-right-color: rgb(171,171,174);
 }
-#exp1:hover, #exp2:hover, #exp3:hover {
+#exp1:hover, #exp2:hover, #exp3:hover, #exp4:hover {
     background-color: rgb(35, 41, 65);
 }
 
-#exp1.active, #exp2.active, #exp3.active {
+#exp1.active, #exp2.active, #exp3.active, #exp4.active {
     color: white;
     background-color: rgb(35, 41, 65);
     border-right-width: 3px;

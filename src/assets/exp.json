@@ -1,28 +1,41 @@
 [
     {
+        "name": "Accountium",
+        "title": "Software Engineer Intern",
+        "company": " @ Accountium",
+        "from": "May, 2023",
+        "to": "Present",
+        "work":[
+            "▹ Actively contributing as a full-stack developer to a dynamic accounting web application, currently serving over 50 small businesses with critical features.",
+            "▹ Utilized C#, ASP.NET Core, and Microsoft Azure to develop an efficient Work Scheduling module, allowing customer companies to create and manage employee schedules.",
+            "▹ Led the development of a project management module, facilitating project progress tracking and in- voicing processes for customer companies."
+        ],
+        "color": "#5c9b954d",
+        "logo": "accountium_logo.jpeg"
+    },
+    {
         "name": "University of Alberta",
         "title": "Graduate Research Assisstant",
         "company": " @ UofA",
         "from": "Jan, 2023",
-        "to": "Present",
+        "to": "April, 2023",
         "work":[
-            "▹ Collaborating with a partner company to design and implement a highly efficient market penetration engine that optimizes the process of identifying potential clients.",
-            "▹ Developed and fine-tuned predictive models to output potential client success rates, using Python, Pandas, Scikit-learn, leading to better decision making and business growth.",
-            "▹ Developed a ranking algorithm to compliment the success rate output and identify the top clients."
+            "▹ Developed an efficient market penetration engine for an executive search firm, resulting in client search time reduction by almost 70%.",
+            "▹ Developed and fine-tuned predictive models to output potential client success rates, using Python, Pandas, Scikit-learn, leading to better decision making and business growth."
         ],
         "color": "#355c3b4D",
         "logo": "uofa-logo.png"
     },
     {
         "name": "Deloitte",
-        "title": "Associate",
+        "title": "Software Developer",
         "company": " @ Deloitte",
         "to": "Aug, 2022",
         "from": "Aug, 2020",
         "work": [
-            "▹ Successfully developed user authentication and profile management webpages for 12 websites and 4 apps using JavaScript, jQuery, and NodeJS in an Agile development environment.",
-            "▹ Led the successful migration of more than 4.5 million user records to a new database by developing Python migration scripts, ensuring minimal disruption to business operations and data integrity.",
-            "▹ Implemented Single Sign-On and Multi-Factor Authentication among all websites and apps."
+            "▹ Developed user onboarding and profile management webpages for 12 web and 4 mobile applications using JavaScript, jQuery, and NodeJS, with a daily user base of over 50,000.",
+            "▹ Utilized Kubernetes to deploy and manage the containerized applications, ensuring scalability and efficient resource utilization.",
+            "▹ Led the successful migration of more than 4.5 million user records to a new database by developing Python migration scripts, ensuring data integrity."
         ],
         "color": "#0000004D",
         "logo": "deloitte-logo.avif"
