@@ -6,9 +6,10 @@
         "from": "May, 2023",
         "to": "Present",
         "work":[
-            "▹ Actively contributing as a full-stack developer to a dynamic accounting web application, currently serving over 50 small businesses with critical features.",
-            "▹ Utilized C#, ASP.NET Core, and Microsoft Azure to develop an efficient Work Scheduling module, allowing customer companies to create and manage employee schedules.",
-            "▹ Led the development of a project management module, facilitating project progress tracking and in- voicing processes for customer companies."
+            "▹ Boosted customer base by 25% by optimizing the frontend of the Accountium web application, enhancing its responsiveness and making it fully compatible with mobile devices.",
+            "▹ Delivered a 20% reduction in client project delays through the development of a Project Management feature, encompassing DB modeling, REST APIs and frontend development. This feature streamlines project progress management and automates invoice generation.",
+            "▹ Developed a Work Scheduling feature, benefiting 50+ clients by enabling them to create employee schedules, monitor work hours, and validate locations, by developing stored procedures, REST APIs, and designing database.",
+            "▹ Technologies - C#, HTML, CSS, JavaScript, ASP.NET Core MVC, REST APIs, Azure SQL DB, Git."
         ],
         "color": "#5c9b954d",
         "logo": "accountium_logo.jpeg"
@@ -20,8 +21,10 @@
         "from": "Jan, 2023",
         "to": "April, 2023",
         "work":[
-            "▹ Developed an efficient market penetration engine for an executive search firm, resulting in client search time reduction by almost 70%.",
-            "▹ Developed and fine-tuned predictive models to output potential client success rates, using Python, Pandas, Scikit-learn, leading to better decision making and business growth."
+            "▹ Responsible for leading a team of 3 members, aimed at helping an executive search firm find better clients in less time, by using Machine Learning techniques.",
+            "▹ Reduced the leads generation time by 70%, through the development of an automated ETL pipeline, fetching 1000+ relevant leads from Linkedin Sales Navigator and Indeed.",
+            "▹ Improved the process of selecting the top potential clients from leads, as seen by an increase in client count by 20%, by developing, training and utilizing a linear regression model to predict the success rate for each lead.",
+            "▹ Technologies - Python, Pandas, PyCaret, Scikit-Learn."
         ],
         "color": "#355c3b4D",
         "logo": "uofa-logo.png"
@@ -33,9 +36,10 @@
         "to": "Aug, 2022",
         "from": "Aug, 2020",
         "work": [
-            "▹ Developed user onboarding and profile management webpages for 12 web and 4 mobile applications using JavaScript, jQuery, and NodeJS, with a daily user base of over 50,000.",
-            "▹ Utilized Kubernetes to deploy and manage the containerized applications, ensuring scalability and efficient resource utilization.",
-            "▹ Led the successful migration of more than 4.5 million user records to a new database by developing Python migration scripts, ensuring data integrity."
+            "▹ Ramped up the user acquisition rate by 15% for all the supermarket chains under Sobeys Inc., by developing user onboarding and account management webpages.",
+            "▹ Enhanced the security of the websites, by building REST APIs to implement email-based MFA, with device change and location change triggers.",
+            "▹ Led the successful migration of more than 4.5 million user records to a new database by developing the entire migration pipeline.",
+            "▹ Technologies - ReactJS, NodeJS, ExpressJS, Python, SQL, REST APIs, Microsoft Azure Devops."
         ],
         "color": "#0000004D",
         "logo": "deloitte-logo.avif"
