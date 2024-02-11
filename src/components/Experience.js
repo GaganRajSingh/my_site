@@ -10,7 +10,7 @@ class MenuExampleVerticalSecondary extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			activeItem: 'Accountium',
+			activeItem: 'BGC Engineering',
 		};
 		this.handleItemClick = this.handleItemClick.bind(this);
 	}
@@ -42,6 +42,11 @@ class MenuExampleVerticalSecondary extends Component {
 
 					<div className='column_25_menu'>
 						<Menu pointing secondary vertical size='large'>
+							<Menu.Item id="exp3"
+								name='BGC Engineering'
+								active={activeItem === 'BGC Engineering'}
+								onClick={this.handleItemClick}
+							/>
 							<Menu.Item id="exp4"
 								name='Accountium'
 								active={activeItem === 'Accountium'}
@@ -55,11 +60,6 @@ class MenuExampleVerticalSecondary extends Component {
 							<Menu.Item id="exp2"
 								name='Deloitte'
 								active={activeItem === 'Deloitte'}
-								onClick={this.handleItemClick}
-							/>
-							<Menu.Item id="exp3"
-								name='Chaincode Consulting'
-								active={activeItem === 'Chaincode Consulting'}
 								onClick={this.handleItemClick}
 							/>
 						</Menu>

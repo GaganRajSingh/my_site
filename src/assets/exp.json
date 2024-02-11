@@ -1,10 +1,23 @@
 [
     {
+        "name": "BGC Engineering",
+        "title": "Software Developer Co-op",
+        "company": " @ BGC Engineering",
+        "from": "Jan, 2024",
+        "to": "Present",
+        "work": [
+            "▹ Contributing towards development of new features of Cambio Earth Systems web application.",
+            "▹ Technologies - ReactJS, TypeScript, Redux, C#, ASP.NET, Entity Framework, Azure SQL DB, Git."
+        ],
+        "color": "#45236e4D",
+        "logo": "bgc-logo.jpeg"
+    },
+    {
         "name": "Accountium",
-        "title": "Software Engineer Intern",
+        "title": "Software Developer Co-op",
         "company": " @ Accountium",
         "from": "May, 2023",
-        "to": "Present",
+        "to": "Dec, 2023",
         "work":[
             "▹ Boosted customer base by 25% by optimizing the frontend of the Accountium web application, enhancing its responsiveness and making it fully compatible with mobile devices.",
             "▹ Delivered a 20% reduction in client project delays through the development of a Project Management feature, encompassing DB modeling, REST APIs and frontend development. This feature streamlines project progress management and automates invoice generation.",
@@ -43,18 +56,5 @@
         ],
         "color": "#0000004D",
         "logo": "deloitte-logo.avif"
-    },
-    {
-        "name": "Chaincode Consulting",
-        "title": "Intern",
-        "company": " @ Chaincode Consulting",
-        "from": "Jan, 2019",
-        "to": "July, 2019",
-        "work": [
-            "▹ Acquired knowledge on the basics of blockchain technology, as well as multiple consensus algorithms such as Proof of Work and Proof of Stake.",
-            "▹ Created proof-of-concepts utilizing Hyperledger Fabric for use cases in the oil and gas industry as well as the health insurance sector."
-        ],
-        "color": "#45236e4D",
-        "logo": "cc-logo.png"
     }
 ]
