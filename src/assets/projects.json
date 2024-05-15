@@ -1,34 +1,42 @@
 [
-    {
-        "project_image": "bored-apes.jpg",
-        "project_title": "NFT Marketplace",
-        "project_description": "A platform to generate, mint and trade NFTs on Goerli testnet.",
-        "project_skills": "Solidity, Ethereum, ReactJS, NodeJS, ExpressJS",
-        "project_github": "https://github.com/GaganRajSingh/NFT_Marketplace",
-        "project_link": "some random link"
-    },
-    {
-        "project_image": "elephant.png",
-        "project_title": "Image Stylization",
-        "project_description": "A web-based platform to transform an image style using an artistic image.",
-        "project_skills": "Python, CNNs, Deep learning, Scikit-learn",
-        "project_github": "https://github.com/GaganRajSingh/ImageStyler",
-        "project_link": "some random link"
-    },
-    {
-        "project_image": "anomaly.png",
-        "project_title": "Anomaly Detection",
-        "project_description": "A Neural Network model to detect anomaly in surveillance videos.",
-        "project_skills": "Python, Deep learning, PyTorch, Pandas",
-        "project_github": "https://github.com/GaganRajSingh/Anomaly_Detection",
-        "project_link": "some random link" 
-    },
-    {
-        "project_image": "climate.png",
-        "project_title": "Climate Explorer",
-        "project_description": "An interactive visualization of historic YEG climate data.",
-        "project_skills": "PlotlyJS, ReactsJS, Pandas, Python",
-        "project_github": "https://github.com/GaganRajSingh/MM-804",
-        "project_link": "some random link" 
-    }
+	{
+		"project_image": "bored-apes.jpg",
+		"project_title": "NFT Marketplace",
+		"project_description": "A platform to generate, mint and trade NFTs on Goerli testnet.",
+		"project_skills": "Solidity, Ethereum, ReactJS, NodeJS, ExpressJS",
+		"project_github": "https://github.com/GaganRajSingh/NFT_Marketplace",
+		"project_link": "some random link"
+	},
+	{
+		"project_image": "Talk2PDFs.jpeg",
+		"project_title": "Talk-2-PDFs",
+		"project_description": "An application to upload multiple PDFs and turn them into chatbots.",
+		"project_skills": "LangChain, React, TypeScript, Redux, Flask, Python",
+		"project_github": "https://github.com/GaganRajSingh/Talk-2-PDF",
+		"project_link": "some random link"
+	},
+	{
+		"project_image": "elephant.png",
+		"project_title": "Image Stylization",
+		"project_description": "A web-based platform to transform an image style using an artistic image.",
+		"project_skills": "Python, CNNs, Deep learning, Scikit-learn",
+		"project_github": "https://github.com/GaganRajSingh/ImageStyler",
+		"project_link": "some random link"
+	},
+	{
+		"project_image": "anomaly.png",
+		"project_title": "Anomaly Detection",
+		"project_description": "A Neural Network model to detect anomaly in surveillance videos.",
+		"project_skills": "Python, Deep learning, PyTorch, Pandas",
+		"project_github": "https://github.com/GaganRajSingh/Anomaly_Detection",
+		"project_link": "some random link"
+	},
+	{
+		"project_image": "climate.png",
+		"project_title": "Climate Explorer",
+		"project_description": "An interactive visualization of historic YEG climate data.",
+		"project_skills": "PlotlyJS, ReactsJS, Pandas, Python",
+		"project_github": "https://github.com/GaganRajSingh/MM-804",
+		"project_link": "some random link"
+	}
 ]
