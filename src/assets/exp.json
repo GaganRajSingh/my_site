@@ -1,60 +1,57 @@
 [
-    {
-        "name": "BGC Engineering",
-        "title": "Software Developer Co-op",
-        "company": " @ BGC Engineering",
-        "from": "Jan, 2024",
-        "to": "Present",
-        "work": [
-            "▹ Contributing towards development of new features of Cambio Earth Systems web application.",
-            "▹ Technologies - ReactJS, TypeScript, Redux, C#, ASP.NET, Entity Framework, Azure SQL DB, Git."
-        ],
-        "color": "#45236e4D",
-        "logo": "bgc-logo.jpeg"
-    },
-    {
-        "name": "Accountium",
-        "title": "Software Developer Co-op",
-        "company": " @ Accountium",
-        "from": "May, 2023",
-        "to": "Dec, 2023",
-        "work":[
-            "▹ Boosted customer base by 25% by optimizing the frontend of the Accountium web application, enhancing its responsiveness and making it fully compatible with mobile devices.",
-            "▹ Delivered a 20% reduction in client project delays through the development of a Project Management feature, encompassing DB modeling, REST APIs and frontend development. This feature streamlines project progress management and automates invoice generation.",
-            "▹ Developed a Work Scheduling feature, benefiting 50+ clients by enabling them to create employee schedules, monitor work hours, and validate locations, by developing stored procedures, REST APIs, and designing database.",
-            "▹ Technologies - C#, HTML, CSS, JavaScript, ASP.NET Core MVC, REST APIs, Azure SQL DB, Git."
-        ],
-        "color": "#5c9b954d",
-        "logo": "accountium_logo.jpeg"
-    },
-    {
-        "name": "University of Alberta",
-        "title": "Graduate Research Assisstant",
-        "company": " @ UofA",
-        "from": "Jan, 2023",
-        "to": "April, 2023",
-        "work":[
-            "▹ Responsible for leading a team of 3 members, aimed at helping an executive search firm find better clients in less time, by using Machine Learning techniques.",
-            "▹ Reduced the leads generation time by 70%, through the development of an automated ETL pipeline, fetching 1000+ relevant leads from Linkedin Sales Navigator and Indeed.",
-            "▹ Improved the process of selecting the top potential clients from leads, as seen by an increase in client count by 20%, by developing, training and utilizing a linear regression model to predict the success rate for each lead.",
-            "▹ Technologies - Python, Pandas, PyCaret, Scikit-Learn."
-        ],
-        "color": "#355c3b4D",
-        "logo": "uofa-logo.png"
-    },
-    {
-        "name": "Deloitte",
-        "title": "Software Developer",
-        "company": " @ Deloitte",
-        "to": "Aug, 2022",
-        "from": "Aug, 2020",
-        "work": [
-            "▹ Ramped up the user acquisition rate by 15% for all the supermarket chains under Sobeys Inc., by developing user onboarding and account management webpages.",
-            "▹ Enhanced the security of the websites, by building REST APIs to implement email-based MFA, with device change and location change triggers.",
-            "▹ Led the successful migration of more than 4.5 million user records to a new database by developing the entire migration pipeline.",
-            "▹ Technologies - ReactJS, NodeJS, ExpressJS, Python, SQL, REST APIs, Microsoft Azure Devops."
-        ],
-        "color": "#0000004D",
-        "logo": "deloitte-logo.avif"
-    }
+	{
+		"name": "BGC Engineering",
+		"title": "Software Developer Co-op",
+		"company": " @ BGC Engineering",
+		"from": "Jan, 2024",
+		"to": "Present",
+		"work": [
+			"▹ Contributing towards development of new features of Cambio Earth Systems web application.",
+			"▹ Technologies - ReactJS, TypeScript, Redux, C#, ASP.NET, Entity Framework, Azure SQL DB, Git."
+		],
+		"color": "#45236e4D",
+		"logo": "bgc-logo.jpeg"
+	},
+	{
+		"name": "Accountium",
+		"title": "Software Developer Co-op",
+		"company": " @ Accountium",
+		"from": "May, 2023",
+		"to": "Dec, 2023",
+		"work": [
+			"▹ Developed major features for an accounting Software as a Service web application.",
+			"▹ Facilitated seamless onboarding of international clients through development of a Generic Tax System.",
+			"▹ Technologies - ReactJS, C#, JavaScript, ASP.NET Core MVC, REST APIs, MS SQL, Git."
+		],
+		"color": "#5c9b954d",
+		"logo": "accountium_logo.jpeg"
+	},
+	{
+		"name": "University of Alberta",
+		"title": "Graduate Research Assisstant",
+		"company": " @ UofA",
+		"from": "Jan, 2023",
+		"to": "April, 2023",
+		"work": [
+			"▹ Refined the client acquisition process of an executive search firm, by developing machine learning models to predict lead success rates.",
+			"▹ Technologies - Python, Pandas, PyCaret, Scikit-Learn."
+		],
+		"color": "#355c3b4D",
+		"logo": "uofa-logo.png"
+	},
+	{
+		"name": "Deloitte",
+		"title": "Software Developer",
+		"company": " @ Deloitte",
+		"to": "Aug, 2022",
+		"from": "Aug, 2020",
+		"work": [
+			"▹ Part of Digital Identity & Access Management team.",
+			"▹ Developed multiple websites for a supermarket chain client, resulting in an increase in user acquisition rate from 9% to 15%.",
+			"▹ Led the successful migration of 4.5M+ user records to a new database by developing the entire migration pipeline.",
+			"▹ Technologies - ReactJS, NodeJS, ExpressJS, Python, SQL, REST APIs, Microsoft Azure Devops."
+		],
+		"color": "#0000004D",
+		"logo": "deloitte-logo.avif"
+	}
 ]

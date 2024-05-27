@@ -1,25 +1,14 @@
 import exp from "../assets/exp.json";
 
-function Job_banner (props) {
+function Job_banner(props) {
+	var bgColor = exp.find((xp) => xp.name === props.name).color;
+	var logoLink = exp.find((xp) => xp.name === props.name).logo;
 
-    var bgColor = '';
-    var logoLink = '';
-
-
-    exp.map((xp, index) => {
-        if (xp.name == props.name) {
-            bgColor = xp.color
-            logoLink = xp.logo
-        }
-    })
-
-    return (
-        <div style={{backgroundColor: bgColor}} className="job_header">
-            <div>
-                <img className="job_logo" src={logoLink}/>
-            </div>
-        </div>
-    )
+	return (
+		<div style={{ backgroundColor: bgColor }} className="job_header">
+			<img className="job_logo" src={logoLink} alt="exp" />
+		</div>
+	);
 }
 
-export default Job_banner
+export default Job_banner;
