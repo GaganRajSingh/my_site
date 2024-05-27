@@ -1,47 +1,101 @@
-import {Link} from "react-scroll";
-import '../css/Nav.css'
+import { Link } from "react-scroll";
+import "../css/Nav.css";
+import { useState } from "react";
+import { IoMenu } from "react-icons/io5";
 
 function Nav() {
-    const logo = require('../assets/logo1.png')
-    return (
-        <nav className="nav__container__actions">
-            <a className="logo_link" href="localhost:3000">
-                <img className="logo_image" src={logo}/>
-            </a>
-            <ul>
-                <li>
-                    <Link activeClass="active" smooth spy to="about_section">
-                        ABOUT
-                    </Link>
-                </li>
-                <li>
-                    <Link activeClass="active" smooth spy to="skills_section">
-                        SKILLS
-                    </Link>
-                </li>
-                <li>
-                    <Link activeClass="active" smooth spy to="experience_section">
-                        EXPERIENCE
-                    </Link>
-                </li>
-                <li>
-                    <Link activeClass="active" smooth spy to="projects_section">
-                        PROJECTS
-                    </Link>
-                </li>
-                <li>
-                    <Link activeClass="active" smooth spy to="resume_section">
-                        RESUME
-                    </Link>
-                </li>
-                <li>
-                    <Link activeClass="active" smooth spy to="contact_section">
-                        CONTACT ME
-                    </Link>
-                </li>
-            </ul>
-        </nav>
-    );
+	const logo = require("../assets/logo1.png");
+
+	const toggleLinks = () => {
+		setShowLinks(!showLinks);
+	};
+
+	const hideLinks = () => {
+		setShowLinks(false);
+	};
+
+	const [showLinks, setShowLinks] = useState(false);
+
+	return (
+		<nav className="nav__container__actions">
+			<a className="logoContainer" href="localhost:3000">
+				<img className="logo_image" src={logo} />
+			</a>
+
+			<ul className={showLinks ? "links" : "links hide"}>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="about_section"
+						onClick={hideLinks}
+					>
+						ABOUT
+					</Link>
+				</li>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="skills_section"
+						onClick={hideLinks}
+					>
+						SKILLS
+					</Link>
+				</li>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="experience_section"
+						onClick={hideLinks}
+					>
+						EXPERIENCE
+					</Link>
+				</li>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="projects_section"
+						onClick={hideLinks}
+					>
+						PROJECTS
+					</Link>
+				</li>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="resume_section"
+						onClick={hideLinks}
+					>
+						RESUME
+					</Link>
+				</li>
+				<li>
+					<Link
+						activeClass="active"
+						smooth
+						spy
+						to="contact_section"
+						onClick={hideLinks}
+					>
+						CONTACT ME
+					</Link>
+				</li>
+			</ul>
+
+			<div className="sideBarIcon" onClick={toggleLinks}>
+				<IoMenu size={25} />
+			</div>
+		</nav>
+	);
 }
 
 export default Nav;
