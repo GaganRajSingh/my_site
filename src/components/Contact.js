@@ -11,6 +11,7 @@ function Contact() {
 	};
 
 	useEffect(() => {
+		setGraphicSize(window.innerWidth <= 768 ? "200px" : "300px");
 		window.addEventListener("resize", handleResize);
 	}, []);
 
