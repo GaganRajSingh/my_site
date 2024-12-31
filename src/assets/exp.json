@@ -1,12 +1,25 @@
 [
 	{
+		"name": "Amazon",
+		"title": "Software Developer",
+		"company": " @ AWS",
+		"from": "Oct, 2024",
+		"to": "Present",
+		"work": [
+			"▹ Part of AWS Application Autoscaling team.",
+			"▹ Technologies - Java, TypeScript, AWS Services."
+		],
+		"color": "#0a01084d",
+		"logo": "amazon.jpeg"
+	},
+	{
 		"name": "BGC Engineering",
 		"title": "Software Developer Co-op",
 		"company": " @ BGC Engineering",
 		"from": "Jan, 2024",
-		"to": "Present",
+		"to": "Aug, 2024",
 		"work": [
-			"▹ Contributing towards development of new features of Cambio Earth Systems web application.",
+			"▹ Contributed towards development of new features of Cambio Earth Systems web application.",
 			"▹ Technologies - ReactJS, TypeScript, Redux, C#, ASP.NET, Entity Framework, Azure SQL DB, Git."
 		],
 		"color": "#45236e4D",

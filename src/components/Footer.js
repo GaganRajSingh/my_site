@@ -1,25 +1,13 @@
-import '../css/Footer.css';
-import { MdEmail } from "react-icons/md";
-import { BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
-import { SiLeetcode } from "react-icons/si";
+import "../css/Footer.css";
+import Socials from "./Socials";
 
-function Footer () {
-    return (
-        <div className="footer">
-            <div className='designed'>
-                Designed & built by Gagan Raj Singh
-            </div>
-            <div className='socials'>
-                    <ul>
-                        <li><a target="_blank" href='https://github.com/gaganrajsingh'> <BsGithub />   </a></li>
-                        <li><a target="_blank" href="https://linkedin.com/in/gagan-raj-singh"> <BsLinkedin /> </a></li>
-                        <li><a target="_blank" href="https://leetcode.com/grsb"> <SiLeetcode /> </a></li>
-                        <li><a target="_blank" href="https://twitter.com/Gagan_2610"> <BsTwitter />  </a></li>
-                        <li><a target="_blank" href="mailto:grsingh@ualberta.ca"> <MdEmail size={21}/>    </a></li>
-                    </ul>
-                </div> 
-        </div>
-    );
+function Footer() {
+	return (
+		<div className="footer">
+			<div className="designed">Designed & built by Gagan Raj Singh</div>
+			<Socials />
+		</div>
+	);
 }
 
-export default Footer
+export default Footer;

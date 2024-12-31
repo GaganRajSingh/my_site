@@ -5,7 +5,7 @@ import Job_banner from "./Job_banner";
 import "../css/Experience.css";
 
 function Experience() {
-	const [activeItem, setActiveItem] = useState("BGC Engineering");
+	const [activeItem, setActiveItem] = useState("Amazon");
 	const [isMobileView, setIsMobileView] = useState(false);
 
 	const handleResize = () => {
@@ -43,6 +43,12 @@ function Experience() {
 									: "vertical large pointing secondary"
 							}
 						>
+							<Menu.Item
+								id="exp5"
+								name="Amazon"
+								active={activeItem === "Amazon"}
+								onClick={handleItemClick}
+							/>
 							<Menu.Item
 								id="exp3"
 								name="BGC Engineering"
