@@ -38,7 +38,8 @@
 #exp1,
 #exp2,
 #exp3,
-#exp4 {
+#exp4,
+#exp5 {
 	color: white;
 	border-right-width: 1px;
 	border-right-color: rgb(171, 171, 174);
@@ -46,14 +47,16 @@
 #exp1:hover,
 #exp2:hover,
 #exp3:hover,
-#exp4:hover {
+#exp4:hover,
+#exp5:hover {
 	background-color: rgb(35, 41, 65);
 }
 
 #exp1.active,
 #exp2.active,
 #exp3.active,
-#exp4.active {
+#exp4.active,
+#exp5.active {
 	color: white;
 	background-color: rgb(35, 41, 65);
 	border-right-width: 3px;
@@ -138,7 +141,8 @@
 	#exp1,
 	#exp2,
 	#exp3,
-	#exp4 {
+	#exp4,
+	#exp5 {
 		color: white;
 		border-bottom-width: 2px;
 		border-bottom-color: rgb(171, 171, 174);
@@ -146,14 +150,16 @@
 	#exp1:hover,
 	#exp2:hover,
 	#exp3:hover,
-	#exp4:hover {
+	#exp4:hover,
+	#exp5:hover {
 		background-color: rgb(35, 41, 65);
 	}
 
 	#exp1.active,
 	#exp2.active,
 	#exp3.active,
-	#exp4.active {
+	#exp4.active,
+	#exp5.active {
 		color: white;
 		background-color: rgb(35, 41, 65);
 		border-bottom-width: 3px;
